@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto Cadastro do produto</title>
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <main class="form-container">
+      <h2>Cadastro de Produtos</h2>
+
+      <form action="#" method="get">
+        <div class="form-group">
+          <label for="">Nome do Produto:</label>
+          <input
+            type="text"
+            name="nomeproduto"
+            maxlength="50"
+            id="nomeproduto"
+            placeholder="Nome completo"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="">Código do Produto:</label>
+          <input
+            type="text"
+            name="codigo"
+            id="codigo"
+            maxlength="6"
+            placeholder="0000000"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="">Categoria:</label>
+          <select name="categoria" id="categoria" required>
+            <option value="">Outros...</option>
+            <option value="eletronico">Eletrônicos</option>
+            <option value="vestuario">Vestuário</option>
+            <option value="alimentos">Alimentos</option>
+            <option value="moveis">Móveis</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="estoque">Quantidade em Estoque:</label>
+          <input
+            type="number"
+            name="estoque"
+            id="estoque"
+            required
+            placeholder="0"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="preco">Preço:</label>
+          <input
+            type="number"
+            name="preco"
+            id="preco"
+            step="0.10"
+            required
+            placeholder="0"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="data">Data de Validade:</label>
+          <input type="date" name="data" id="name" required />
+        </div>
+
+        <div class="form-group">
+          <label for="">Descrição do Produto:</label>
+          <textarea
+            name="descricao"
+            style="resize: none"
+            id="descricao"
+            cols="10"
+            rows="9"
+          ></textarea>
+        </div>
+
+        <div class="form-group">
+          <input type="submit" class="submit-btn" value="Cadastrar Produto" />
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
