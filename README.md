@@ -1,4 +1,4 @@
-# Formulário cadastro de Produtos
+#Formulário de Cadastro de Produtos
 
 O projeto criado tem a função de executar um cadastro de produto, podendo ser de alimentos, eletrônicos e imóveis, utilizando CSS e HTML. O objetivo é que seja simples e claro para qualquer usuário, permitindo o cadastro fácil de produtos sem dificuldades.
 
